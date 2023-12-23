@@ -41,3 +41,5 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/pubsub-tutorial
 # Deploy to Cloud Run
 gcloud run deploy pubsub-tutorial --image gcr.io/${GOOGLE_CLOUD_PROJECT}/pubsub-tutorial
 ```
+
+Trying to trigger build...
